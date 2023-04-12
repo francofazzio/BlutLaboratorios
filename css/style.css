@@ -90,10 +90,11 @@ footer{
     margin-top: 20px;
     display: flex;
 }
-.row img{
+.column2 .row img{
     width: 36px;
     height: 36px;
 }
+
 .row label {
     margin-top: 10px;
     margin-left: 20px;
