@@ -153,9 +153,21 @@ footer{
         margin-top: 40px;
     }
 }
+/*service css*/
+.icon-service {
+    box-sizing: 70px;
+    width: var(box-sizing);
+    height: var(box-sizing);
+    padding: 10px;
+}
 
-
-
+.card img {
+    /* change the height to whatever you want */
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    width: 100%;
+  }
 
 
 
