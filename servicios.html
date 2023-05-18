@@ -15,128 +15,127 @@
 	<title>Blut Laboratorios</title>
 </head>
 
-<body>
-	<!--INICIA NAVBAR-->
+<body class="container-fluid">
+	<header class="fixed-top sticky-top w-100">
+		<!--INICIA NAVBAR-->
+		<nav class="navbar navbar-expand-md navbar-light bg-light  mt-3 ">
+			<div class="container-fluid fs-5">
+				<a class="navbar-brand" href="index.html"> <img src="img/blutlaboratorios2.jpg" width="150" height="100"></a>
 
-	<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top sticky-top mt-3 ">
-		<div class="container-fluid">
-			<a class="navbar-brand" href="index.html"> <img src="img/blutlaboratorios2.jpg" width="150" height="100"></a>
-			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-					<li class="nav-item">
-						<a class="nav-link " aria-current="page" href="servicios.html">Servicios</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="nosotros.html">Nosotros</a>
-					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="cursos.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-							aria-expanded="false">
-							Cursos
-						</a>
-						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<li><a class="dropdown-item" href="#">Action</a></li>
-							<li><a class="dropdown-item" href="#">Another action</a></li>
-							<li>
-								<hr class="dropdown-divider">
-							</li>
-							<li><a class="dropdown-item" href="#">Something else here</a></li>
-						</ul>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link " href="formacion.html" tabindex="-1" aria-disabled="true">Formacion</a>
-					</li>
-				</ul>
-				<form class="d-flex">
-					<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-					<button class="btn btn-outline-danger" type="submit">Search</button>
-				</form>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link " aria-current="page" href="servicios.html">Servicios</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="nosotros.html">Nosotros</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+								aria-expanded="false">
+								Cursos
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li><a class="dropdown-item" href="#">Action</a></li>
+								<li><a class="dropdown-item" href="#">Another action</a></li>
+								<li>
+									<hr class="dropdown-divider">
+								</li>
+								<li><a class="dropdown-item" href="#">Something else here</a></li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link " href="formacion.html" tabindex="-1" aria-disabled="true">Formacion</a>
+						</li>
+					</ul>
+					<form class="d-flex">
+						<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+						<button class="btn btn-outline-danger" type="submit">Search</button>
+					</form>
+				</div>
 			</div>
-		</div>
+		</nav>
+	</header>
 	</nav>
-<section class="row justify-content-around text-center" id="secService">
-<h2 class="col-12 display-4 text-capitalize mb-3">
-  Nuestros servicios
-</h2>
-<article class="col-10 col-md-10 col-lg-3 bg-white rounded shadow p-3 fw-light">
-  <img src="img/smartphone.png" alt="" class="bg-danger bg-gradient d-inline-block rounded-circle mb-3 icon-service">
-<h3 class="text-capitalize">user experience</h3>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt alias quod, illo praesentium dolores necessitatibus vitae quo sed accusantium incidunt quisquam. Ex cumque voluptatum reiciendis. Quaerat consequatur tempora alias cupiditate?</p>
-<a href="" class="btn btn-outline-danger">go</a>
+	<!--CIERRA NAVBAR-->
+	<!--ABRE SECTION-->
+	<h1>NUESTROS SERVICIOS</h1>
 
+	<div class="row">
+		<article class="col-lg-4 mb-md-3">
+			<div class="card">
+				<img src="img/mesadeentrada.png" class="card-img-top w-100" alt="...">
+				<div class="card-body mt-3">
+					<h5 class="card-title">Lab en casa</h5>
+					<p class="card-text">Los servicios a domicilio son un concepto basico y fundamental, que prioriza blut laboratorios con la finalidad de lograr la contencion y la recuperacion de pacientes con enfermedades o controles, logrando a traves de esta herramienta el cuidado y la prevencion de nuestros pacientes en su domicilio o lugar de trabajo</p>
+					<a href="#" class="btn btn-danger">Go somewhere</a>
+				</div>
+			</div>
+		</article>
+		 <!--cierra primer card-->
+		<article class="col-lg-4 mb-md-3">
+			<div class="card">
+				<img src="img/analisisclinicos.jpg" class="card-img-top w-100" alt="...">
+				<div class="card-body mt-3">
+					<h5 class="card-title">Analisis Clinicos</h5>
+					<p class="card-text">La division de analisis clinicos trabaja todos los dias, bajo normas de calidad y compromiso con el paciente, dando conocimientos bioquimicos valiosos para el diagnostico, evolucion de tratamientos y pronostico de las distintas patologias en beneficio de la salud humana</p>
+					<a href="#" class="btn btn-danger">Go somewhere</a>
+				</div>
+			</div>
+		</article>
+		 <!--cierra segunda card-->
+		<article class="col-lg-4 mb-md-3">
+			<div class="card">
+				<img src="img/mesadeentrada.png" class="card-img-top w-100" alt="...">
+				<div class="card-body mt-3">
+					<h5 class="card-title">Estudios de Trombofilia</h5>
+					<p class="card-text">Desde hace 20 años Blut Laboratorios se ha especializado en el area de hemostasia y trombosis.La trombosis es una de las causas mas destacadas de mortalidad en los paises del mundo</p>
+					<a href="#" class="btn btn-danger">Go somewhere</a>
+				</div>
+			</div>
+		</article> <!--cierra tercera card-->
+	</div>
 
-</article> <!--CIERRA article-->
+	<div class="row">
+		<article class="col-lg-4 mb-md-3">
+			<div class="card">
+				<img src="img/mesadeentrada.png" class="card-img-top w-100" alt="...">
+				<div class="card-body mt-3">
+					<h5 class="card-title">Biologia Molecular y Citogenetica</h5>
+					<p class="card-text">La Genetica Molecular ha experimentado un permanente desarrollo en las uLtimas decadas y Blut Laboratorios realiza estudios de genes y proteinas que desempeñan un papel fundamental en numerosos procesos bioquimicos del organismo.Nuestro laboratoro cuenta con un grupo de especialistas que brinda apoyo a miles de profesionales de la salud, para contar con el diagnostico mas preciso</p>
+					<a href="#" class="btn btn-danger">Go somewhere</a>
+				</div>
+			</div>
+		</article>
+		 <!--cierra CUARTA card-->
+		<article class="col-lg-4 mb-md-3">
+			<div class="card">
+				<img src="img/mesadeentrada.png" class="card-img-top w-100" alt="...">
+				<div class="card-body mt-3">
+					<h5 class="card-title">Estudio de Fertilidad</h5>
+					<p class="card-text">Blut Laboratorios ofrece herramientas de cuidado a quienes todavia no planearon embarazo para mejorar su pronostico reproductivo. Asi tambien provee de informacion apropiada y realiza acciones oportunas en los casos que pudieran existir causas tratables de infertibilidad</p>
+					<a href="#" class="btn btn-danger">Go somewhere</a>
+				</div>
+			</div>
+		</article>
+		 <!--cierra QUINTA card-->
+		<article class="col-lg-4 mb-md-3">
+			<div class="card">
+				<img src="img/mesadeentrada.png" class="card-img-top w-100" alt="...">
+				<div class="card-body mt-3">
+					<h5 class="card-title">Nutrigenomica</h5>
+					<p class="card-text">El estado nutricional de las poblaciones define el futuro economico asi como tambien la productividad individual y colectiva. Blut laboratorios contribuye al cumplimiento de estudios que evidencian el modo en que los alimentos afectan los genes de una persona y de la forma en que los genes afectan la reaccion del cuerpo a los alimentos</p>
+					<a href="#" class="btn btn-danger">Go somewhere</a>
+				</div>
+			</div>
+		</article> <!--cierra SEXTA card-->
+	</div>
 
-<article class="col-10 col-md-10 col-lg-3 bg-white rounded shadow p-3 fw-light">
-	<img src="img/smartphone.png" alt="" class="bg-danger bg-gradient d-inline-block rounded-circle mb-3 icon-service">
-  <h3 class="text-capitalize">user experience</h3>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt alias quod, illo praesentium dolores necessitatibus vitae quo sed accusantium incidunt quisquam. Ex cumque voluptatum reiciendis. Quaerat consequatur tempora alias cupiditate?</p>
-  <a href="" class="btn btn-outline-danger">go</a>
-  
-  
-  </article> <!--CIERRA article-->
-
-  <article class="col-10 col-md-10 col-lg-3 bg-white rounded shadow p-3 fw-light">
-	<img src="img/smartphone.png" alt="" class="bg-danger bg-gradient d-inline-block rounded-circle mb-3 icon-service">
-  <h3 class="text-capitalize">user experience</h3>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt alias quod, illo praesentium dolores necessitatibus vitae quo sed accusantium incidunt quisquam. Ex cumque voluptatum reiciendis. Quaerat consequatur tempora alias cupiditate?</p>
-  <a href="" class="btn btn-outline-danger">go</a>
-  
-  
-  </article> <!--CIERRA article-->
-
-  <article class="col-10 col-md-10 col-lg-3 bg-white rounded shadow p-3 fw-light">
-	<img src="img/smartphone.png" alt="" class="bg-danger bg-gradient d-inline-block rounded-circle mb-3 icon-service">
-  <h3 class="text-capitalize">user experience</h3>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt alias quod, illo praesentium dolores necessitatibus vitae quo sed accusantium incidunt quisquam. Ex cumque voluptatum reiciendis. Quaerat consequatur tempora alias cupiditate?</p>
-  <a href="" class="btn btn-outline-danger">go</a>
-  
-  
-  </article> <!--CIERRA article-->
-  
-</section>
-
-<section class="row justify-content-around text-center" id="secService">
-	
-	<article class="col-10 col-md-10 col-lg-3 bg-white rounded shadow p-3 fw-light">
-		<img src="img/smartphone.png" alt="" class="bg-danger bg-gradient d-inline-block rounded-circle mb-3 icon-service">
-	  <h3 class="text-capitalize">user experience</h3>
-	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt alias quod, illo praesentium dolores necessitatibus vitae quo sed accusantium incidunt quisquam. Ex cumque voluptatum reiciendis. Quaerat consequatur tempora alias cupiditate?</p>
-	  <a href="" class="btn btn-outline-danger">go</a>
-	  
-	  
-	  </article> <!--CIERRA article-->
-	
-	  <article class="col-10 col-md-10 col-lg-3 bg-white rounded shadow p-3 fw-light">
-		<img src="img/smartphone.png" alt="" class="bg-danger bg-gradient d-inline-block rounded-circle mb-3 icon-service">
-	  <h3 class="text-capitalize">user experience</h3>
-	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt alias quod, illo praesentium dolores necessitatibus vitae quo sed accusantium incidunt quisquam. Ex cumque voluptatum reiciendis. Quaerat consequatur tempora alias cupiditate?</p>
-	  <a href="" class="btn btn-outline-danger">go</a>
-	  
-	  
-	  </article> <!--CIERRA article-->
-	
-	  <article class="col-10 col-md-10 col-lg-3 bg-white rounded shadow p-3 fw-light">
-		<img src="img/smartphone.png" alt="" class="bg-danger bg-gradient d-inline-block rounded-circle mb-3 icon-service">
-	  <h3 class="text-capitalize">user experience</h3>
-	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt alias quod, illo praesentium dolores necessitatibus vitae quo sed accusantium incidunt quisquam. Ex cumque voluptatum reiciendis. Quaerat consequatur tempora alias cupiditate?</p>
-	  <a href="" class="btn btn-outline-danger">go</a>
-	  
-	  
-	  </article> <!--CIERRA article-->
-	
-	  <article class="col-10 col-md-10 col-lg-3 bg-white rounded shadow p-3 fw-light">
-		<img src="img/smartphone.png" alt="" class="bg-danger bg-gradient d-inline-block rounded-circle mb-3 icon-service">
-	  <h3 class="text-capitalize">user experience</h3>
-	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt alias quod, illo praesentium dolores necessitatibus vitae quo sed accusantium incidunt quisquam. Ex cumque voluptatum reiciendis. Quaerat consequatur tempora alias cupiditate?</p>
-	  <a href="" class="btn btn-outline-danger">go</a>
-	  
-	  
-	  </article> <!--CIERRA article-->
 
 </section>
     <section class="row justify-content-center text-center text-md-start">
@@ -146,9 +145,8 @@
       <div class="col-10 col-md-10">
         <p class="text-muted fw-light">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nihil nostrum non quibusdam nemo quam alias excepturi minus amet iure autem culpa, aliquid consectetur debitis sequi mollitia quaerat reiciendis tempore?
-  
         </p>
-        <a href="" download="CV" class="btn btn-danger rounded-pill px-4">
+        <a href="»blutlaboratorios@gmail.com»" download="CV" class="btn btn-danger rounded-pill px-4">
           Mandanos tu CV
         </a>
       </div>
