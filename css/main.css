@@ -24,22 +24,14 @@
     margin-top:50px;
     background-color: #d81f1f;
     display:flex;
-    justify-content: center; 
-    padding-bottom: 300px; 
-}
-
-.mapa {
-    background: url(../img/mapa.png);
-    width:100%;
-    height:500px;
+    justify-content: right;
+    padding-bottom: 300px;
+    align-items: center; 
 }
 
 
-.wrapper-local {
-    width:50%;
-    margin-left:100px;
-    padding-top:150px;
-}
+
+
 
 
 
